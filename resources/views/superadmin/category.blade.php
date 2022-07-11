@@ -17,7 +17,7 @@
           </div>
           <div class="col col-6">
             <div class="text-end">
-              <a href="{{route('addcategory')}}" class="grad-btn grad-btn-color" >Add Category <img src="images/btn-arrow-color.svg" alt="arrow"/></a>
+              <a href="{{route('addCategory')}}" class="grad-btn grad-btn-color" >Add Category <img src="images/btn-arrow-color.svg" alt="arrow"/></a>
             </div>
           </div>
         </div>
@@ -34,7 +34,6 @@
                       <th scope="col"> Title</th>
                       <th scope="col"> Subtitle</th>
                       <th scope="col"> Description</th>
-                      <!-- <th scope="col"> Created Date</th> -->
                       <th></th>
                     </tr>
                   </thead>
@@ -45,7 +44,6 @@
                       <td>Category Title 1</td>
                       <td>Category Subtitle 1</td>
                       <td>Category Description 1</td>
-                      <!-- <td>Sep 02</td> -->
                       <td>
                           <div class="dropdown action-div">
                             <div class="dropdown-toggle no-toggle-arrow" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,9 +51,7 @@
                             </div>
                             <!--//dropdown-toggle-->
                             <ul class="dropdown-menu">
-                              <!-- <li><a class="dropdown-item" href="blogdetails.php"><i class="fas fa-eye"></i> View</a></li> -->
                               <li><a class="dropdown-item" href="addblog.php"><i class="fas fa-pencil-alt"></i> Edit</a></li>
-                              <!-- <li><hr class="dropdown-divider"></li> -->
                               <li><a class="dropdown-item" href="#"><i class="fas fa-trash-alt"></i> Delete</a></li>
                             </ul>
                           </div>
@@ -67,7 +63,6 @@
                       <td>Category Title 2</td>
                       <td>Category Subtitle 2</td>
                       <td>Category Description 2</td>
-                      <!-- <td>Sep 02</td> -->
                       <td>
                           <div class="dropdown action-div">
                             <div class="dropdown-toggle no-toggle-arrow" data-bs-toggle="dropdown" aria-expanded="false">
@@ -76,7 +71,6 @@
                             <!--//dropdown-toggle-->
                             <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="addblog.php"><i class="fas fa-pencil-alt"></i> Edit</a></li>
-                              <!-- <li><hr class="dropdown-divider"></li> -->
                               <li><a class="dropdown-item" href="#"><i class="fas fa-trash-alt"></i> Delete</a></li>
                             </ul>
                           </div>

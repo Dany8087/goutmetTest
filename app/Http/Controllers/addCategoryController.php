@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class addcategoryController extends Controller
+class addCategoryController extends Controller
 {
     public function index(){
-        return view ('superadmin.addcategory');
+        return view ('superadmin.addCategory');
     }
 }

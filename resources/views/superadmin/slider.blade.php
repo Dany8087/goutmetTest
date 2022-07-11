@@ -15,23 +15,6 @@
         <div class="ap-com">
           <form action="" method="" enctype="multipart/form-data">
             <div class="row">
-              <!-- <div class="col col-xxl-3 col-md-4 col-12">
-                <nav class="ap-com nav-div landing-nav">
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist"> -->
-                    <!-- <button class="nav-link active" id="nav-section1-tab" data-bs-toggle="tab" data-bs-target="#nav-section1" type="button" role="tab" aria-controls="nav-section1" aria-selected="true">Slider Text</button>
-                    <button class="nav-link" id="nav-section2-tab" data-bs-toggle="tab" data-bs-target="#nav-section2" type="button" role="tab" aria-controls="nav-section2" aria-selected="false">Slider Images</button> -->
-                    <!-- <button class="nav-link" id="nav-section3-tab" data-bs-toggle="tab" data-bs-target="#nav-section3" type="button" role="tab" aria-controls="nav-section3" aria-selected="false">Section 3</button>
-                    <button class="nav-link" id="nav-section4-tab" data-bs-toggle="tab" data-bs-target="#nav-section4" type="button" role="tab" aria-controls="nav-section4" aria-selected="false">Section 4</button>
-                    <button class="nav-link" id="nav-section5-tab" data-bs-toggle="tab" data-bs-target="#nav-section5" type="button" role="tab" aria-controls="nav-section5" aria-selected="false">Section 5</button>
-                    <button class="nav-link" id="nav-section6-tab" data-bs-toggle="tab" data-bs-target="#nav-section6" type="button" role="tab" aria-controls="nav-section6" aria-selected="false">Section 6</button>
-                    <button class="nav-link" id="nav-section7-tab" data-bs-toggle="tab" data-bs-target="#nav-section7" type="button" role="tab" aria-controls="nav-section7" aria-selected="false">Section 7</button>
-                    <button class="nav-link" id="nav-section8-tab" data-bs-toggle="tab" data-bs-target="#nav-section8" type="button" role="tab" aria-controls="nav-section8" aria-selected="false">Section 8</button>
-                    <button class="nav-link" id="nav-section9-tab" data-bs-toggle="tab" data-bs-target="#nav-section9" type="button" role="tab" aria-controls="nav-section9" aria-selected="false">Section 9</button>
-                    <button class="nav-link" id="nav-section10-tab" data-bs-toggle="tab" data-bs-target="#nav-section10" type="button" role="tab" aria-controls="nav-section10" aria-selected="false">Section 10</button>
-                    <button class="nav-link" id="nav-section11-tab" data-bs-toggle="tab" data-bs-target="#nav-section11" type="button" role="tab" aria-controls="nav-section11" aria-selected="false">Section 11</button> -->
-                  <!-- </div>
-                </nav>
-              </div> -->
               <div class="col col-xxl-12 col-md-8 col-12">
                 <div class="tab-content ap-com" id="nav-tabContent"> 
                   <!-- === Section 1 ===-->

@@ -48,13 +48,6 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col col-12">
-                <div class="mb-4 form-group">
-                  <label class="form-label">Blog Details</label>
-                  <textarea class="form-control editor-ctrl" id="ctrl-editor"></textarea>
-                </div>
-              </div> -->
-              
             </div>
             <div class="row mb-4">
 
