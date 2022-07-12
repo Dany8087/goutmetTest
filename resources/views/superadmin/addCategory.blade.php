@@ -20,7 +20,7 @@
               <div class="text-end"> <a href="{{route('category')}}" class="grad-btn grad-btn-color"><img src="images/left-arrow-color.svg" alt="arrow" style="margin-right:15px; "/> Back </a> </div>
             </div>
           </div>
-          <form action="" method="" enctype="multipart/form-data">
+          <form action="/addcategory" method="post" enctype="multipart/form-data">
             <div class="row">
               <div class="col col-md-6 col-12">
                 <div class="mb-4 form-group">

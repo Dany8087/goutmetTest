@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 @include('components.style')
@@ -14,11 +13,15 @@
               <img src="images/logo-2" alt="vennplay logo" />
             </div>
             <div class="login-form border-secondary">
-              <form action="{{route('login')}}" method="post">
+              <form action="{{route('register')}}" method="get">
                 @csrf
                 <div class="mb-4 form-group">
-                  <label for="exampleFormControlInput1" class="form-label">Username / Email</label>
+                  <label for="exampleFormControlInput1" class="form-label">Username</label>
                   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-4 form-group">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <div class="mb-4 form-group">
                   <label for="exampleFormControlInput2" class="form-label">Password</label>
@@ -29,19 +32,13 @@
                   <!-- Checkbox -->
                   <div class="form-check mb-0">
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                    <label class="form-check-label" for="form2Example3">
-                      Remember me
-                    </label>
                   </div>
-                  <a href="#!" class="text-body">Forgot password?</a>
                 </div>               
                 <div class="submit-btn-div mt-5 btn-small">
-                <button onclick="" class="grad-btn">Register <img src="images/btn-arrow.svg" alt="arrow"/></button>
-                  <button type="submit" class="grad-btn">Log In <img src="images/btn-arrow.svg" alt="arrow"/></button>
+                  <button type="submit" class="grad-btn">Register <img src="images/btn-arrow.svg" alt="arrow"/></button>
                 </div>
               </form>
-             
-            </div>  
+            </div>
           </div>
         </div>
       </div>

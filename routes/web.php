@@ -7,6 +7,7 @@ use App\Http\Controllers\categoryController;
 use App\Http\Controllers\subCategoryController;
 use App\Http\Controllers\sliderController;
 use App\Http\Controllers\addCategoryController;
+use App\Http\Controllers\registerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,10 +24,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/register', [registerController::class, 'index'])->name('register');
+Route::post('/register', [registerController::class, 'store'])->name('register');
+
 Route::post('/login', [loginController::class, 'index'])->name('login');
 Route::get('/dashboard', [dashboardController::class, 'index'])->name('dashboard');
 Route::get('/slider', [sliderController::class, 'index'])->name('slider');
 Route::get('/category', [categoryController::class, 'index'])->name('category');
 Route::get('/subCategory', [subCategoryController::class, 'index'])->name('subCategory');
 Route::get('/addCategory', [addCategoryController::class, 'index'])->name('addCategory');
+Route::post('/Category', [addCategoryController::class, 'index'])->name('addCategory');
+
+
+
+
 
